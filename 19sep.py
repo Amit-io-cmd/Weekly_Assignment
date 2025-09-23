@@ -6,14 +6,7 @@ for i in List:
 
 
 # write a program that counts how many times each word appears in a given list using the dictionary
-mylist=["rahul","rakesh","rohan","rahul","rakesh"]
-mydict={}
-for n in mylist:
-    if n in mydict:
-        mydict[n]+=1
-    else:
-        mydict[n]=1
-print(mydict)
+
 
 # write a function that finds the maximum nuber in a list without using max()
 nums=[12,14,5,6,78,9,87,45]
